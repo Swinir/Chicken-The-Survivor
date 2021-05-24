@@ -1,10 +1,9 @@
-#Pygame game -> ""
-import Menu
 import pip_setup
 
 pip_setup.install("moviepy")
 pip_setup.install("pygame")
 
+import Menu
 import pygame
 from moviepy.editor import *
 import random
